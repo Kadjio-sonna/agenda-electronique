@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51cb172f-6f73-4e39-b2ba-073470f4340b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/agenda-electronique/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agenda-electronique/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agenda-electronique/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agenda-electronique/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agenda-electronique/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agenda-electronique/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agenda-electronique/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agenda-electronique/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agenda-electronique/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agenda-electronique/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agenda-electronique/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agenda-electronique/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agenda-electronique/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agenda-electronique/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agenda-electronique/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agenda-electronique/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agenda-electronique/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agenda-electronique/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agenda-electronique/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agenda-electronique/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agenda-electronique/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agenda-electronique/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agenda-electronique/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agenda-electronique/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agenda-electronique/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agenda-electronique/tsconfig.spec.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/agenda-electronique" />
+  </component>
+  <component name="ProjectId" id="20rkLBs3MdqeuRGOq6opwCvaKWU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51cb172f-6f73-4e39-b2ba-073470f4340b" name="Default Changelist" comment="" />
+      <created>1636810049028</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636810049028</updated>
+      <workItem from="1636810091586" duration="74000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="462" y="101" key="FileChooserDialogImpl" timestamp="1636810171372">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="462" y="101" key="FileChooserDialogImpl/0.0.1366.720@0.0.1366.720" timestamp="1636810171372" />
+    <state x="65" y="43" key="new project wizard" timestamp="1636810174007">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="65" y="43" key="new project wizard/0.0.1366.720@0.0.1366.720" timestamp="1636810174007" />
+  </component>
+</project>

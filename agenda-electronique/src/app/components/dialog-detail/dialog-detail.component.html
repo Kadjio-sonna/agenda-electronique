@@ -1,0 +1,22 @@
+<h2 mat-dialog-title>&#10140; Detail Event</h2>
+<hr />
+<div mat-dialog-content>
+  <h3>&#10140;
+    Event &#9992;
+    <span class="fw-bold">{{ this.currentEventDetail.title }}</span> place at
+    &#9992; <span class="fw-bold">{{ this.currentEventDetail.place }}</span>
+  </h3>
+
+  <h4>&#10140;
+    Of date
+    <span class="fw-bolder">{{ this.currentEventDetail.startDate }}</span> To
+    <span class="fw-bolder">{{ this.currentEventDetail.endDate }}</span>
+    &#9992; <span class="fw-bolder text-danger">{{ this.typeOfDay }}</span>
+  </h4>
+
+  <h4 *ngIf="this.currentEventDetail.swoleDay == 'part-time'">&#10140;
+    Of hour
+    <span class="fw-bolder">{{ this.currentEventDetail.startHour }}</span> To
+    <span class="fw-bolder">{{ this.currentEventDetail.endHour }}</span>
+  </h4>
+</div>

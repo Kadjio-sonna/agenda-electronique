@@ -1,0 +1,127 @@
+<h2>New Event</h2>
+<mat-dialog-content class="mat-typography">
+  <div class="size-for">
+    <!-- Input text -->
+    <div class="form-text">
+      <mat-form-field appearance="outline" class="h-text">
+        <mat-label>Title</mat-label>
+        <input
+          matInput
+          placeholder="Enter your title"
+          [(ngModel)]="event.title"
+        />
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+      </mat-form-field>
+      <mat-form-field appearance="outline" class="form-place h-text">
+        <mat-label>Place</mat-label>
+        <mat-select [(ngModel)]="event.place">
+          <mat-option value="Douala">Douala</mat-option>
+          <mat-option value="Yaounde">Yaounde</mat-option>
+          <mat-option value="Dschang">Dschang</mat-option>
+          <mat-option value="Buea">Buea</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+
+    <!-- Input CheckBox for Jour entier -->
+    <div class="mt-2">
+      <label class="fw-bold">Jour entier </label>
+      <label class="switch mx-2">
+        <input
+          type="checkbox"
+          id="checboxDay"
+          (change)="toggleShowTime()"
+          [(ngModel)]="event.checkboxJourEntier"
+        />
+        <span class="slider round"></span>
+      </label>
+    </div>
+
+    <!-- Input Date -->
+    <div class="form-date mt-2 d-flex">
+      <input
+        type="date"
+        aria-label="Start date"
+        class="form-control h cursor-pointer"
+        [(ngModel)]="event.startDate"
+      />
+      <input
+        type="date"
+        aria-label="End date"
+        class="form-control mx-2 h cursor-pointer"
+        [(ngModel)]="event.endDate"
+      />
+    </div>
+
+    <!-- Input time -->
+    <div class="row mt-2 w-text" *ngIf="isShown">
+      <div>
+        <label for="start" class="">Start hour</label>
+        <input
+          type="time"
+          id="appt"
+          name="appt"
+          class="form-control"
+          [(ngModel)]="event.startHour"
+        />
+      </div>
+
+      <div class="mt-2">
+        <label for="end" class="">End hour</label>
+        <input
+          type="time"
+          id="appt1"
+          name="appt1"
+          class="form-control"
+          [(ngModel)]="event.endHour"
+        />
+      </div>
+    </div>
+
+    <!-- Input text -->
+    <div class="form mt-4 w-text">
+      <mat-form-field appearance="outline" class="form-recc">
+        <mat-label>Reccurence</mat-label>
+        <mat-select [(ngModel)]="event.recurrence">
+          <mat-option value="Jamais">Jamais</mat-option>
+          <mat-option value="Quotidienne">Tous les jours</mat-option>
+          <mat-option value="Hebdomadaire">Toutes les semaines</mat-option>
+          <mat-option value="Mensuelle">Tous les mois</mat-option>
+          <mat-option value="Annuelle">Tous les ans</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field
+        color="accent"
+        appearance="outline"
+        class="form-date-recc"
+      >
+        <mat-label>Inherited calendar color</mat-label>
+        <input
+          matInput
+          [matDatepicker]="picker1"
+          [(ngModel)]="event.dateRecurrence"
+        />
+        <mat-datepicker-toggle
+          matSuffix
+          [for]="picker1"
+        ></mat-datepicker-toggle>
+        <mat-datepicker #picker1></mat-datepicker>
+      </mat-form-field>
+    </div>
+
+    <!-- <mat-form-field appearance="fill">
+        <mat-label>Input</mat-label>
+        <input matInput />
+      </mat-form-field> -->
+  </div>
+
+  <!-- <p>{{ this.objDate.day }} {{ this.objDate.month }} {{ this.objDate.year }}</p> -->
+  <!-- <p class="fw-bold">{{ this.objData.dpStart }}</p> -->
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Cancel</button>
+  <button mat-button [mat-dialog-close]="true" (click)="this.addEvent()">
+    Add
+  </button>
+</mat-dialog-actions>

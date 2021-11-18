@@ -1,0 +1,26 @@
+.demo-inline-calendar-card {
+  width: 400px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
+  /* font-weight: bold; */
+  margin-left: 2rem;
+  flex: 1 1 auto;
+}
+
+.para {
+  margin-top: 1.4rem;
+  font-size: 18px;
+  margin-left: 2rem;
+  font-weight: italic;
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+}
+
+table {
+  width: 60%;
+  height: 4rem;
+}
